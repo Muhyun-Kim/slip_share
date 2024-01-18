@@ -5,9 +5,27 @@ class Login extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: Center(
-        child: Text("Login"),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            ElevatedButton(
+              onPressed: () {
+                //TODO: add function to google login
+                print("google loin");
+              },
+              child: const Text("google login"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                //TODO: add function to login with apple
+                print("apple login");
+              },
+              child: const Text("Apple Login"),
+            )
+          ],
+        ),
       ),
     );
   }

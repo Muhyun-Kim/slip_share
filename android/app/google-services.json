@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "484739183050",
+    "project_id": "slip-share",
+    "storage_bucket": "slip-share.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484739183050:android:f3ec641769a65f228b9f33",
+        "android_client_info": {
+          "package_name": "com.example.sip_share"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDvjwv67gKxLTXa15ZgtX1LQt9KAF19xI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
